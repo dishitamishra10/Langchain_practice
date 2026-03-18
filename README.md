@@ -1,102 +1,97 @@
-# 📘 LangChain Practice Repository
+📘 LangChain Practice Repository
 
-This repository contains **module-wise practice and experimentation with LangChain**, organized to understand each component independently.
+This repository contains module-wise practice and experimentation with LangChain, organized to understand each component independently.
 
-The goal is to **learn, test, and implement core concepts** of LLM applications step by step.
+The goal is to learn, test, and implement core concepts of LLM applications step by step.
 
----
-
-## 📂 Folder Structure
-
-```bash
+📂 Folder Structure
 ├── Chains/               # Practice on different types of chains
-├── ChatBot/             # Basic chatbot implementations
-├── DocumentLoader/      # Loading documents (PDF, text, etc.)
-├── Models/              # Working with LLMs & embeddings
-├── Prompts/             # Prompt engineering experiments
-├── Retrievers/          # Retrieval techniques (RAG basics)
-├── Runnables/           # LCEL (LangChain Expression Language)
-├── Streamlit_app/       # UI experiments using Streamlit
-├── Structured_output/   # Generating structured responses
-├── TextSplitting/       # Chunking strategies
-├── VectorStore/         # Vector database practice
-├── YouTube_Video/       # Processing YouTube transcripts
-```
+├── Youtube_Chatbot/      # Chatbot using YouTube data
+├── DocumentLoader/       # Loading documents (PDF, text, etc.)
+├── Models/               # Working with LLMs & embeddings
+├── Prompts/              # Prompt engineering experiments
+├── Retrievers/           # Retrieval techniques (RAG basics)
+├── Runnables/            # LCEL (LangChain Expression Language)
+├── Structured_Output/    # Generating structured responses
+├── TextSplitting/        # Chunking strategies
+├── VectorStore/          # Vector database practice
+├── YouTube_Video/        # Processing YouTube videos/transcripts
+├── Application_chatbot/  # End-to-end chatbot implementation
+🎯 Purpose
 
----
+Learn LangChain module by module
 
-## 🎯 Purpose
+Understand how each component works independently
 
-* Learn LangChain **module by module**
-* Understand how each component works **independently**
-* Build a strong foundation for **LLM-based applications**
-* Experiment with different pipelines before building full projects
+Build a strong foundation for LLM-based applications
 
----
+Experiment with different pipelines before building full projects
 
-## 🧠 Topics Covered
+🧠 Topics Covered
 
-* Chains and sequential workflows
-* Prompt engineering
-* Document loading & preprocessing
-* Text splitting techniques
-* Embeddings and vector stores
-* Retrieval-Augmented Generation (RAG)
-* Chatbot basics
-* Structured outputs
-* Streamlit UI integration
+Chains and sequential workflows
 
----
+Prompt engineering
 
-## ▶️ How to Use
+Document loading & preprocessing
+
+Text splitting techniques
+
+Embeddings and vector stores
+
+Retrieval-Augmented Generation (RAG)
+
+Chatbot development
+
+Structured outputs
+
+LangChain Expression Language (LCEL)
+
+▶️ How to Use
 
 You can explore each folder independently:
 
-```bash
 cd <module_name>
 python file_name.py
-```
-
 Example:
-
-```bash
 cd Chains
 python chain_example.py
-```
-
----
-
-## ⚙️ Requirements
+⚙️ Requirements
 
 Install dependencies:
 
-```bash
 pip install -r requirements.txt
-```
+🔐 Environment Setup
 
----
+Create a .env file and add your API key:
 
-## 📌 Notes
+OPENAI_API_KEY=your_api_key_here
 
-* Each folder is **self-contained practice code**
-* Not intended as a single production-ready project
-* Focus is on **concept clarity and experimentation**
+⚠️ Do NOT upload .env to GitHub.
 
----
+📌 Notes
 
-## 🚀 Next Step
+Each folder is self-contained practice code
 
-After completing all modules, combine them to build:
+Not intended as a single production-ready project
 
-* RAG-based applications
-* Chatbots
-* AI-powered tools
+Focus is on concept clarity and experimentation
 
----
+Some modules may require API keys to run
 
-## 👤 Author
+🚀 Next Step
 
-**Dishita Mishra**
+After completing all modules, you can combine them to build:
+
+RAG-based applications
+
+Chatbots
+
+AI-powered tools
+
+Full-stack LLM applications
+
+👤 Author
+
+Dishita Mishra
 CSE Student | Learning LangChain 🚀
-
----
