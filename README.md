@@ -4,7 +4,6 @@ This repository contains module-wise practice and experimentation with LangChain
 
 The goal is to learn, test, and implement core concepts of LLM applications step by step.
 
-📂 Folder Structure
 ├── Chains/               # Practice on different types of chains
 ├── Youtube_Chatbot/      # Chatbot using YouTube data
 ├── DocumentLoader/       # Loading documents (PDF, text, etc.)
@@ -17,6 +16,7 @@ The goal is to learn, test, and implement core concepts of LLM applications step
 ├── VectorStore/          # Vector database practice
 ├── YouTube_Video/        # Processing YouTube videos/transcripts
 ├── Application_chatbot/  # End-to-end chatbot implementation
+
 🎯 Purpose
 
 Learn LangChain module by module
