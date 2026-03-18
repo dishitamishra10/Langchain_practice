@@ -1,9 +1,14 @@
-📘 LangChain Practice Repository
+# 📘 LangChain Practice Repository
 
-This repository contains module-wise practice and experimentation with LangChain, organized to understand each component independently.
+This repository contains **module-wise practice and experimentation with LangChain**, organized to understand each component independently.
 
-The goal is to learn, test, and implement core concepts of LLM applications step by step.
+The goal is to **learn, test, and implement core concepts of LLM applications step by step.**
 
+---
+
+## 📂 Folder Structure
+
+```bash
 ├── Chains/               # Practice on different types of chains
 ├── Youtube_Chatbot/      # Chatbot using YouTube data
 ├── DocumentLoader/       # Loading documents (PDF, text, etc.)
@@ -16,82 +21,93 @@ The goal is to learn, test, and implement core concepts of LLM applications step
 ├── VectorStore/          # Vector database practice
 ├── YouTube_Video/        # Processing YouTube videos/transcripts
 ├── Application_chatbot/  # End-to-end chatbot implementation
+```
 
-🎯 Purpose
+---
 
-Learn LangChain module by module
+## 🎯 Purpose
 
-Understand how each component works independently
+- Learn LangChain **module by module**  
+- Understand how each component works **independently**  
+- Build a strong foundation for **LLM-based applications**  
+- Experiment with different pipelines before building full projects  
 
-Build a strong foundation for LLM-based applications
+---
 
-Experiment with different pipelines before building full projects
+## 🧠 Topics Covered
 
-🧠 Topics Covered
+- Chains and sequential workflows  
+- Prompt engineering  
+- Document loading & preprocessing  
+- Text splitting techniques  
+- Embeddings and vector stores  
+- Retrieval-Augmented Generation (RAG)  
+- Chatbot development  
+- Structured outputs  
+- LangChain Expression Language (LCEL)  
 
-Chains and sequential workflows
+---
 
-Prompt engineering
-
-Document loading & preprocessing
-
-Text splitting techniques
-
-Embeddings and vector stores
-
-Retrieval-Augmented Generation (RAG)
-
-Chatbot development
-
-Structured outputs
-
-LangChain Expression Language (LCEL)
-
-▶️ How to Use
+## ▶️ How to Use
 
 You can explore each folder independently:
 
+```bash
 cd <module_name>
 python file_name.py
-Example:
+```
+
+### Example:
+```bash
 cd Chains
 python chain_example.py
-⚙️ Requirements
+```
+
+---
+
+## ⚙️ Requirements
 
 Install dependencies:
 
+```bash
 pip install -r requirements.txt
-🔐 Environment Setup
+```
 
-Create a .env file and add your API key:
+---
 
+## 🔐 Environment Setup
+
+Create a `.env` file and add your API key:
+
+```bash
 OPENAI_API_KEY=your_api_key_here
+```
 
-⚠️ Do NOT upload .env to GitHub.
+⚠️ Do NOT upload `.env` to GitHub.
 
-📌 Notes
+---
 
-Each folder is self-contained practice code
+## 📌 Notes
 
-Not intended as a single production-ready project
+- Each folder is **self-contained practice code**  
+- Not intended as a single production-ready project  
+- Focus is on **concept clarity and experimentation**  
+- Some modules may require API keys to run  
 
-Focus is on concept clarity and experimentation
+---
 
-Some modules may require API keys to run
-
-🚀 Next Step
+## 🚀 Next Step
 
 After completing all modules, you can combine them to build:
 
-RAG-based applications
+- RAG-based applications  
+- Chatbots  
+- AI-powered tools  
+- Full-stack LLM applications  
 
-Chatbots
+---
 
-AI-powered tools
+## 👤 Author
 
-Full-stack LLM applications
-
-👤 Author
-
-Dishita Mishra
-CSE Student | Learning LangChain 🚀
+**Dishita Mishra**  
+CSE Student | Learning LangChain 🚀  
